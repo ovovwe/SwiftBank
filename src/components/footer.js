@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 
-class Footer extends React.Component{
-    render(){
-        return(
+class Footer extends React.Component {
+    render() {
+        return (
             <footer className="footer">
                 <div className="container-fluid clearfix">
                     <span className="text-muted d-block text-center text-sm-left d-sm-inline-block">

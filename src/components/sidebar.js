@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import pic1 from './../images/faces/face1.jpg';
 
 import '../css/style.css';
@@ -10,17 +9,27 @@ import Transfer from './transfer';
 import Airtime from './airtime';
 import PayBills from './paybills';
 
-class SideBar extends React.Component{
-    render(){
-        return(
+import Main from '../index';
 
+import {Switch, Router, Route, Link} from 'react-router-dom';
+
+class SideBar extends React.Component {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {componentToRender: <div></div>};
+    }
+
+    render() {
+        return (
             <nav className="sidebar sidebar-offcanvas" id="sidebar">
                 <ul className="nav">
                     <li className="nav-item nav-profile">
                         <div className="nav-link">
                             <div className="user-wrapper">
                                 <div className="profile-image">
-                                    <img src={pic1} alt="profile image" />
+                                    <img src={pic1} alt="profile image"/>
                                 </div>
                                 <div className="text-wrapper">
                                     <p className="profile-name">John Doe</p>
@@ -30,7 +39,11 @@ class SideBar extends React.Component{
                                     </div>
                                 </div>
                             </div>
-                            <button className="btn btn-success btn-block">Withdrawal
+
+
+                            <button className="btn btn-block"
+                                    style={{background:"linear-gradient(120deg, #ffaf00, #dc3545)"}}
+                                    onClick={this.clickOnSomething}>Withdrawal
                                 <i className="mdi mdi-arrow-left"></i>
                             </button>
                         </div>
@@ -50,7 +63,7 @@ class SideBar extends React.Component{
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href={Airtime}>
-                            <i className="menu-icon mdi mdi-box"></i>
+                            <i className="menu-icon mdi mdi-cards"></i>
                             <span className="menu-title">Airtime Recharge</span>
                         </a>
                     </li>
@@ -74,9 +87,8 @@ class SideBar extends React.Component{
                     </li>
                 </ul>
             </nav>
-            
-            
         );
+
     }
 }
 export default SideBar;

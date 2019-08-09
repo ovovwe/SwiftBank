@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import '../css/style.css';
 
@@ -8,9 +7,9 @@ import NavBar from './navbar';
 import SideBar from './sidebar';
 import ContainerPayBills from './containers/paybills_container';
 
-class PayBills extends React.Component{
-    render(){
-        return(
+class PayBills extends React.Component {
+    render() {
+        return (
             <div>
                 <NavBar/>
 

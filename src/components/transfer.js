@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import '../css/style.css';
 
@@ -8,9 +7,9 @@ import NavBar from './navbar';
 import SideBar from './sidebar';
 import ContainerTransfer from './containers/transfer_container';
 
-class Transfer extends React.Component{
-    render(){
-        return(
+class Transfer extends React.Component {
+    render() {
+        return (
             <div>
                 <NavBar/>
 
@@ -22,6 +21,7 @@ class Transfer extends React.Component{
 
         );
     }
+
 //&#x20A6;
 }
 export default Transfer;

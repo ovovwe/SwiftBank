@@ -11,8 +11,8 @@ import PayBills from './components/paybills';
 import './vendors/iconfonts/font-awesome/css/font-awesome.css';
 import './vendors/iconfonts/mdi/css/materialdesignicons.min.css';
 
-class Main extends React.Component{
-    render(){
+class Main extends React.Component {
+    render() {
         return (
             <main>
                 <Dashboard />
@@ -21,6 +21,8 @@ class Main extends React.Component{
     }
 }
 ReactDOM.render(<Main />, document.getElementById("root"));
+
+export default Main;
 
 //<Dashboard />
 //<Withdrawal />
