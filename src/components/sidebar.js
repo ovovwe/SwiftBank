@@ -9,9 +9,8 @@ import Transfer from './transfer';
 import Airtime from './airtime';
 import PayBills from './paybills';
 
-import Main from '../index';
 
-import {Switch, Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 class SideBar extends React.Component {
 
@@ -23,70 +22,69 @@ class SideBar extends React.Component {
 
     render() {
         return (
-            <nav className="sidebar sidebar-offcanvas" id="sidebar">
-                <ul className="nav">
-                    <li className="nav-item nav-profile">
-                        <div className="nav-link">
-                            <div className="user-wrapper">
-                                <div className="profile-image">
-                                    <img src={pic1} alt="profile image"/>
-                                </div>
-                                <div className="text-wrapper">
-                                    <p className="profile-name">John Doe</p>
-                                    <div>
-                                        <small className="designation text-muted">savings</small>
-                                        <span className="status-indicator online"></span>
+                <nav className="sidebar sidebar-offcanvas" id="sidebar">
+                    <ul className="nav">
+                        <li className="nav-item nav-profile">
+                            <div className="nav-link">
+                                <div className="user-wrapper">
+                                    <div className="profile-image">
+                                        <img src={pic1} alt="profile image"/>
+                                    </div>
+                                    <div className="text-wrapper">
+                                        <p className="profile-name">John Doe</p>
+                                        <div>
+                                            <small className="designation text-muted">savings</small>
+                                            <span className="status-indicator online"></span>
+                                        </div>
                                     </div>
                                 </div>
+
+                                <Link className="btn btn-block" to="/withdraw"
+                                        style={{background:"linear-gradient(120deg, #ffaf00, #dc3545)",color: "white"}}>Withdrawal
+                                    <i className="mdi mdi-arrow-left"></i>
+
+                                </Link>
                             </div>
-
-
-                            <button className="btn btn-block"
-                                    style={{background:"linear-gradient(120deg, #ffaf00, #dc3545)"}}
-                                    onClick={this.clickOnSomething}>Withdrawal
-                                <i className="mdi mdi-arrow-left"></i>
-                            </button>
-                        </div>
-                    </li>
-                    <li className="nav-item active">
-                        <a className="nav-link" href={Dashboard}>
-                            <i className="menu-icon fa fa-dashboard"></i>
-                            <span className="menu-titles">Dashboard</span>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href={Transfer}>
-                            <i className="menu-icon mdi mdi-transfer"></i>
-                            <span className="menu-title">Transfer</span>
-                            <i class="badge badge-primary">5</i>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href={Airtime}>
-                            <i className="menu-icon mdi mdi-cards"></i>
-                            <span className="menu-title">Airtime Recharge</span>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href={PayBills}>
-                            <i className="menu-icon fa fa-money"></i>
-                            <span className="menu-title">Pay bills</span>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="pages/icons/font-awesome.html">
-                            <i className="menu-icon mdi mdi-history"></i>
-                            <span className="menu-title">Trasaction history</span>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="pages/icons/font-awesome.html">
-                            <i className="menu-icon mdi mdi-settings"></i>
-                            <span className="menu-title">Settings</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/dashboard">
+                                <i className="menu-icon fa fa-dashboard"></i>
+                                <span className="menu-titles">Dashboard</span>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/transfer">
+                                <i className="menu-icon mdi mdi-transfer"></i>
+                                <span className="menu-title">Transfer</span>
+                                <i className="badge badge-primary">5</i>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/airtime">
+                                <i className="menu-icon mdi mdi-cards"></i>
+                                <span className="menu-title">Airtime Recharge</span>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/paybills">
+                                <i className="menu-icon fa fa-money"></i>
+                                <span className="menu-title">Pay bills</span>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/history">
+                                <i className="menu-icon mdi mdi-history"></i>
+                                <span className="menu-title">Trasaction history</span>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/settings">
+                                <i className="menu-icon mdi mdi-settings"></i>
+                                <span className="menu-title">Settings</span>
+                            </Link>
+                        </li>
+                    </ul>
+                </nav>
         );
 
     }

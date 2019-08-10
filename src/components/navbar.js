@@ -8,6 +8,8 @@ import pic1 from './../images/faces/face1.jpg';
 
 import '../css/style.css';
 
+import {Link} from 'react-router-dom';
+
 
 class NavBar extends React.Component {
     render() {
@@ -16,12 +18,14 @@ class NavBar extends React.Component {
             // <!-- partial:partials/_navbar.html -->
             <nav className="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
                 <div className="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-                    <a className="navbar-brand brand-logo" href="index.html">
+
+                    <Link className="navbar-brand brand-logo" to="./">
                         <img src={swiftbanklogo} alt="logo"/>
-                    </a>
-                    <a className="navbar-brand brand-logo-mini" href="index.html">
+                    </Link>
+                    <Link className="navbar-brand brand-logo-mini" to="./">
                         <img src={logo_mini} alt="logo"/>
-                    </a>
+                    </Link>
+
                 </div>
                 <div className="navbar-menu-wrapper d-flex align-items-center">
 

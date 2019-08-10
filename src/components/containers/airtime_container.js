@@ -27,7 +27,7 @@ class ContainerAirtime extends React.Component {
                     <div className="row purchace-popup">
                         <div className="col-12">
 
-                            <h3 style={{textAlign:"center"}} classname="align-items-center center">Airtime Recharge</h3>
+                            <h3 style={{textAlign:"center"}} className="align-items-center center">Airtime Recharge</h3>
                         </div>
                     </div>
                     <div className="row">
@@ -56,7 +56,8 @@ class ContainerAirtime extends React.Component {
 
                     <div className="row">
                         <div className="col-md-12 grid-margin">
-                            <h3>Operator </h3>
+                            <br />
+                            <h4>Select service provider </h4>
 
                             <div className="row ">
 
@@ -64,7 +65,7 @@ class ContainerAirtime extends React.Component {
                                     className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
                                     <div className="form-radio form-radio-flat">
                                         <label className="form-check-label" htmlFor="mtn">
-                                            <div style={{display:"block;"}}>
+                                            <div style={{display:"block"}}>
                                                 <img style={logoStyle} className="img img-fluid" src={mtn} alt="MTN"/>
                                             </div>
                                             <div>
@@ -117,12 +118,12 @@ class ContainerAirtime extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="card border-radius-6 shadow">
-                                <div className="card-body col-md-6">
-                                    <form className="form" action="#" method="post">
+                            <div className="card col-md-8 border-radius-6 shadow">
+                                <div className="card-body ">
+                                    <form className="form col-md-10" action="#" method="post">
 
                                         <div className="form-group row">
-                                            <label for="phoneNumber" className="col-sm-3 col-form-label">Recipient
+                                            <label htmlFor="phoneNumber" className="col-sm-3 col-form-label">Recipient
                                                 number</label>
                                             <div className="col-sm-9">
                                                 <input type="tel" className="form-control" id="phoneNumber"
@@ -130,7 +131,7 @@ class ContainerAirtime extends React.Component {
                                             </div>
                                         </div>
                                         <div className="form-group row">
-                                            <label for="amount" className="col-sm-3 col-form-label">Amount</label>
+                                            <label htmlFor="amount" className="col-sm-3 col-form-label">Amount</label>
                                             <div className="col-sm-9">
                                                 <input type="tel" className="form-control" id="amount"
                                                        placeholder="Amount"/>
@@ -138,7 +139,7 @@ class ContainerAirtime extends React.Component {
                                         </div>
 
                                         <div className="form-group row">
-                                            <label for="pin" className="col-sm-3 col-form-label">Enter PIN</label>
+                                            <label htmlFor="pin" className="col-sm-3 col-form-label">Enter PIN</label>
                                             <div className="col-sm-9">
                                                 <input type="tel" className="form-control" id="pin" placeholder="PIN"/>
                                             </div>
@@ -162,191 +163,6 @@ class ContainerAirtime extends React.Component {
                     </div>
 
 
-                    <div className="row">
-                        <div className="col-12 grid-margin">
-                            <div className="card shadow">
-                                <div className="card-body">
-                                    <h4 className=" mb-4">Transfer history</h4>
-                                    <div className="fluid-container">
-                                        <div className="row ticket-card mt-3 pb-2 border-bottom pb-3 mb-3">
-                                            <div className="col-md-1">
-                                                <img className="img-sm rounded-circle mb-4 mb-md-0"
-                                                     src="images/faces/face1.jpg" alt="profile image"/>
-                                            </div>
-                                            <div className="ticket-details col-md-9">
-                                                <div className="d-flex">
-                                                    <p className="text-dark font-weight-semibold mr-2 mb-0 no-wrap">
-                                                        James :</p>
-                                                    <p className="text-primary mr-1 mb-0">[#23047]</p>
-                                                    <p className="mb-0 ellipsis">Donec rutrum congue leo eget
-                                                        malesuada.</p>
-                                                </div>
-                                                <p className="text-gray ellipsis mb-2">Donec rutrum congue leo eget
-                                                    malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id
-                                                    enim
-                                                    vivamus.
-                                                </p>
-                                                <div className="row text-gray d-md-flex d-none">
-                                                    <div className="col-4 d-flex">
-                                                        <small className="mb-0 mr-2 text-muted text-muted">Last
-                                                            responded :
-                                                        </small>
-                                                        <small
-                                                            className="Last-responded mr-2 mb-0 text-muted text-muted">3
-                                                            hours ago
-                                                        </small>
-                                                    </div>
-                                                    <div className="col-4 d-flex">
-                                                        <small className="mb-0 mr-2 text-muted text-muted">Due in :
-                                                        </small>
-                                                        <small
-                                                            className="Last-responded mr-2 mb-0 text-muted text-muted">2
-                                                            Days
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="ticket-actions col-md-2">
-                                                <div className="btn-group dropdown">
-                                                    <button type="button"
-                                                            className="btn btn-success dropdown-toggle btn-sm"
-                                                            data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">
-                                                        Manage
-                                                    </button>
-                                                    <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-reply fa-fw"></i>Quick reply</a>
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-history fa-fw"></i>Another action</a>
-                                                        <div className="dropdown-divider"></div>
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-check text-success fa-fw"></i>Resolve
-                                                            Issue</a>
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-times text-danger fa-fw"></i>Close Issue</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="row ticket-card mt-3 pb-2 border-bottom pb-3 mb-3">
-                                            <div className="col-md-1">
-                                                <img className="img-sm rounded-circle mb-4 mb-md-0"
-                                                     src="images/faces/face2.jpg" alt="profile image"/>
-                                            </div>
-                                            <div className="ticket-details col-md-9">
-                                                <div className="d-flex">
-                                                    <p className="text-dark font-weight-semibold mr-2 mb-0 no-wrap">
-                                                        Stella :</p>
-                                                    <p className="text-primary mr-1 mb-0">[#23135]</p>
-                                                    <p className="mb-0 ellipsis">Curabitur aliquet quam id dui posuere
-                                                        blandit.</p>
-                                                </div>
-                                                <p className="text-gray ellipsis mb-2">Pellentesque in ipsum id orci
-                                                    porta dapibus. Sed porttitor lectus nibh. Curabitur non nulla sit
-                                                    amet
-                                                    nisl.
-                                                </p>
-                                                <div className="row text-gray d-md-flex d-none">
-                                                    <div className="col-4 d-flex">
-                                                        <small className="mb-0 mr-2 text-muted">Last responded :</small>
-                                                        <small className="Last-responded mr-2 mb-0 text-muted">3 hours
-                                                            ago
-                                                        </small>
-                                                    </div>
-                                                    <div className="col-4 d-flex">
-                                                        <small className="mb-0 mr-2 text-muted">Due in :</small>
-                                                        <small className="Last-responded mr-2 mb-0 text-muted">2 Days
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="ticket-actions col-md-2">
-                                                <div className="btn-group dropdown">
-                                                    <button type="button"
-                                                            className="btn btn-success dropdown-toggle btn-sm"
-                                                            data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">
-                                                        Manage
-                                                    </button>
-                                                    <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-reply fa-fw"></i>Quick reply</a>
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-history fa-fw"></i>Another action</a>
-                                                        <div className="dropdown-divider"></div>
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-check text-success fa-fw"></i>Resolve
-                                                            Issue</a>
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-times text-danger fa-fw"></i>Close Issue</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="row ticket-card mt-3">
-                                            <div className="col-md-1">
-                                                <img className="img-sm rounded-circle mb-4 mb-md-0"
-                                                     src="images/faces/face3.jpg" alt="profile image"/>
-                                            </div>
-                                            <div className="ticket-details col-md-9">
-                                                <div className="d-flex">
-                                                    <p className="text-dark font-weight-semibold mr-2 mb-0 no-wrap">John
-                                                        Doe :</p>
-                                                    <p className="text-primary mr-1 mb-0">[#23246]</p>
-                                                    <p className="mb-0 ellipsis">Mauris blandit aliquet elit, eget
-                                                        tincidunt nibh pulvinar.</p>
-                                                </div>
-                                                <p className="text-gray ellipsis mb-2">Nulla quis lorem ut libero
-                                                    malesuada feugiat. Proin eget tortor risus. Lorem ipsum dolor sit
-                                                    amet.</p>
-                                                <div className="row text-gray d-md-flex d-none">
-                                                    <div className="col-4 d-flex">
-                                                        <small className="mb-0 mr-2 text-muted">Last responded :</small>
-                                                        <small className="Last-responded mr-2 mb-0 text-muted">3 hours
-                                                            ago
-                                                        </small>
-                                                    </div>
-                                                    <div className="col-4 d-flex">
-                                                        <small className="mb-0 mr-2 text-muted">Due in :</small>
-                                                        <small className="Last-responded mr-2 mb-0 text-muted">2 Days
-                                                        </small>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="ticket-actions col-md-2">
-                                                <div className="btn-group dropdown">
-                                                    <button type="button"
-                                                            className="btn btn-success dropdown-toggle btn-sm"
-                                                            data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">
-                                                        Manage
-                                                    </button>
-                                                    <div className="dropdown-menu">
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-reply fa-fw"></i>Quick reply</a>
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-history fa-fw"></i>Another action</a>
-                                                        <div className="dropdown-divider"></div>
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-check text-success fa-fw"></i>Resolve
-                                                            Issue</a>
-                                                        <a className="dropdown-item" href="#">
-                                                            <i className="fa fa-times text-danger fa-fw"></i>Close Issue</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="card-footer">
-                                    <span className="pagination"> <span
-                                        className="active">1</span><span>2</span><span>3</span><span>4</span></span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
 
                 <Footer />
