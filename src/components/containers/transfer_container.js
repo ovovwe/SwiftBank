@@ -3,7 +3,6 @@
  */
 import React from 'react';
 
-import '../../css/style.css';
 
 //import components
 import Footer from '../footer';

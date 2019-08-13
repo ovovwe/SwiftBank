@@ -3,8 +3,6 @@
  */
 import React from 'react';
 
-import '../../css/style.css';
-
 import mtn from '../../images/network_operators/mtn.png';
 import glo from '../../images/network_operators/glo.png';
 import nineMobile from '../../images/network_operators/9mobile.jpeg';
@@ -14,6 +12,38 @@ import airel from '../../images/network_operators/airtel.png';
 import Footer from '../footer';
 
 class ContainerAirtime extends React.Component {
+
+
+    constructor() {
+        super();
+        this.state = {
+            operator: '',
+            recipientNumber: '',
+            amount: '',
+            pin: ''
+        }
+    }
+
+    submitAirtimeForm(event) {
+
+       var operatorValue = event.target.elements.operator.value;
+       var recipientValue = event.target.elements.recipientName.value;
+       var amountValue = event.target.elements.amountName.value;
+       var pinValue = event.target.elements.pinName.value;
+
+        this.setState({
+            operator: operatorValue,
+            recipientNumber: recipientValue,
+            amount: amountValue,
+            pin: pinValue
+        });
+
+
+        event.preventDefault();
+    }
+
+
+
     render() {
 
         var logoStyle = {
@@ -54,94 +84,110 @@ class ContainerAirtime extends React.Component {
                         </div>
                     </div>
 
-                    <div className="row">
-                        <div className="col-md-12 grid-margin">
-                            <br />
-                            <h4>Select service provider </h4>
+                    <div>
+                        Network: {this.state.operator} <br />
+                        Recipient Number: {this.state.recipientNumber} <br />
+                        Amount: {this.state.amount} <br />
+                        Pin: {this.state.pin} <br />
 
-                            <div className="row ">
+                    </div>
 
-                                <div
-                                    className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
-                                    <div className="form-radio form-radio-flat">
-                                        <label className="form-check-label" htmlFor="mtn">
-                                            <div style={{display:"block"}}>
-                                                <img style={logoStyle} className="img img-fluid" src={mtn} alt="MTN"/>
-                                            </div>
-                                            <div>
+                    <form onSubmit={this.submitAirtimeForm.bind(this)}>
+
+                        <div className="row">
+                            <div className="col-md-12 grid-margin">
+                                <br />
+                                <h4>Select service provider </h4>
+
+                                <div className="row ">
+
+                                    <div
+                                        className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
+                                        <div className="form-radio form-radio-flat">
+                                            <label className="form-check-label" htmlFor="mtn">
+                                                <div style={{display:"block"}}>
+                                                    <img style={logoStyle} className="img img-fluid" src={mtn}
+                                                         alt="MTN"/>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" className="form-check-input" name="operator"
+                                                           id="mtn" value="mtn"/>
+                                                    <i className="input-helper"></i>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                    <div
+                                        className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
+                                        <div className="form-radio form-radio-flat">
+                                            <label className="form-check-label" htmlFor="glo">
+                                                <img style={logoStyle} className="img img-fluid" src={glo} alt="GLO"/>
                                                 <input type="radio" className="form-check-input" name="operator"
-                                                       id="mtn" value="mtn"/>
+                                                       id="glo"
+                                                       value="glo"/>
                                                 <i className="input-helper"></i>
-                                            </div>
-                                        </label>
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                    <div
+                                        className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
+                                        <div className="form-radio form-radio-flat">
+                                            <label className="form-check-label" htmlFor="airtel">
+                                                <img style={logoStyle} className="img img-fluid" src={airel}
+                                                     alt="Airtel"/>
+                                                <input type="radio" className="form-check-input" name="operator"
+                                                       id="airtel"
+                                                       value="airtel"/>
+                                                <i className="input-helper"></i>
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                    <div
+                                        className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
+                                        <div className="form-radio form-radio-flat">
+                                            <label className="form-check-label" htmlFor="9mobile">
+                                                <img style={logoStyle} className="img img-fluid" src={nineMobile}
+                                                     alt="9Mobile"/>
+                                                <input type="radio" className="form-check-input" name="operator"
+                                                       id="9mobile" value="9mobile"/>
+                                                <i className="input-helper"></i>
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
 
-
-                                <div
-                                    className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
-                                    <div className="form-radio form-radio-flat">
-                                        <label className="form-check-label" htmlFor="glo">
-                                            <img style={logoStyle} className="img img-fluid" src={glo} alt="GLO"/>
-                                            <input type="radio" className="form-check-input" name="operator" id="glo"
-                                                   value="glo"/>
-                                            <i className="input-helper"></i>
-                                        </label>
-                                    </div>
-                                </div>
-
-
-                                <div
-                                    className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
-                                    <div className="form-radio form-radio-flat">
-                                        <label className="form-check-label" htmlFor="airtel">
-                                            <img style={logoStyle} className="img img-fluid" src={airel} alt="Airtel"/>
-                                            <input type="radio" className="form-check-input" name="operator" id="airtel"
-                                                   value="airtel"/>
-                                            <i className="input-helper"></i>
-                                        </label>
-                                    </div>
-                                </div>
-
-
-                                <div
-                                    className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
-                                    <div className="form-radio form-radio-flat">
-                                        <label className="form-check-label" htmlFor="9mobile">
-                                            <img style={logoStyle} className="img img-fluid" src={nineMobile}
-                                                 alt="9Mobile"/>
-                                            <input type="radio" className="form-check-input" name="operator"
-                                                   id="9mobile" value="9mobile"/>
-                                            <i className="input-helper"></i>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="card col-md-8 border-radius-6 shadow">
-                                <div className="card-body ">
-                                    <form className="form col-md-10" action="#" method="post">
+                                <div className="card col-md-8 border-radius-6 shadow">
+                                    <div className="card-body ">
 
                                         <div className="form-group row">
                                             <label htmlFor="phoneNumber" className="col-sm-3 col-form-label">Recipient
                                                 number</label>
                                             <div className="col-sm-9">
-                                                <input type="tel" className="form-control" id="phoneNumber"
+                                                <input type="tel" name="recipientName" className="form-control"
+                                                       id="phoneNumber"
                                                        placeholder="Phone number"/>
                                             </div>
                                         </div>
                                         <div className="form-group row">
                                             <label htmlFor="amount" className="col-sm-3 col-form-label">Amount</label>
                                             <div className="col-sm-9">
-                                                <input type="tel" className="form-control" id="amount"
+                                                <input type="tel" name="amountName" className="form-control" id="amount"
                                                        placeholder="Amount"/>
                                             </div>
+                                            {this.state.amount}
                                         </div>
 
                                         <div className="form-group row">
                                             <label htmlFor="pin" className="col-sm-3 col-form-label">Enter PIN</label>
                                             <div className="col-sm-9">
-                                                <input type="tel" className="form-control" id="pin" placeholder="PIN"/>
+                                                <input type="tel" name="pinName" className="form-control" id="pin"
+                                                       placeholder="PIN"/>
                                             </div>
                                         </div>
 
@@ -156,12 +202,11 @@ class ContainerAirtime extends React.Component {
                                             </div>
                                         </div>
 
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
+                    </form>
 
                 </div>
 

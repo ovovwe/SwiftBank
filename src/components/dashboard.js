@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../css/style.css';
-
 // importing components
 import NavBar from './navbar';
 import SideBar from './sidebar';

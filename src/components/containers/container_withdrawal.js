@@ -4,12 +4,25 @@
 import React from 'react';
 import pic1 from './../../images/faces/face1.jpg';
 
-import '../../css/style.css';
+import HandleWithdrawal from './../form_handler/handle_withdrawal';
 
 //import components
 import Footer from '../footer';
 
 class ContainerWithdrawal extends React.Component {
+    onSubmit = (event) => {
+        event.preventDefault();
+    }
+
+    handleWithdrawalForm = (event) =>{
+        event.preventDefault();
+        console.log(event)
+        console.log(event.target.id)
+        console.log(event.target.value)
+        console.log(event.target.type)
+        console.log(event.target.className)
+    }
+
     render() {
         return (
 
@@ -50,7 +63,7 @@ class ContainerWithdrawal extends React.Component {
                         <div className="col-md-6 grid-margin">
                             <div className="card border-radius-6 shadow">
                                 <div className="card-body">
-                                    <form className="form" action="#" method="post">
+                                    <form className="form" onSubmit={this.onSubmit}>
                                         <div className="form-group row">
                                             <label htmlFor="actNo" className="col-sm-3 col-form-label">Bank</label>
                                             <div className="col-sm-9">
@@ -68,7 +81,7 @@ class ContainerWithdrawal extends React.Component {
                                             <label htmlFor="actNo" className="col-sm-3 col-form-label">Account
                                                 Number</label>
                                             <div className="col-sm-9">
-                                                <input type="tel" className="form-control" id="actNo"
+                                                <input onChange={this.handleWithdrawalForm} type="tel" className="form-control" id="actNoID" name="actNo"
                                                        placeholder="Account number"/>
                                             </div>
                                         </div>
@@ -80,13 +93,15 @@ class ContainerWithdrawal extends React.Component {
                                             </div>
                                         </div>
                                         <div className="form-group">
-                                            <p htmlFor="amount" className="text-success font-weight-bold">Fetched account
+                                            <p htmlFor="amount" className="text-success font-weight-bold">Fetched
+                                                account
                                                 name found!</p>
                                             <p htmlFor="amount" className="text-danger font-weight-bold">Fetched account
                                                 name not found!</p>
                                         </div>
 
-                                        <p htmlFor="amount" className="text-primary font-weight-bold">We need your pin to
+                                        <p htmlFor="amount" className="text-primary font-weight-bold">We need your pin
+                                            to
                                             authorize this transaction</p>
                                         <div className="form-group row">
                                             <label htmlFor="pin" className="col-sm-3 col-form-label">Enter PIN</label>

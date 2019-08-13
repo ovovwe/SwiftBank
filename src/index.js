@@ -12,6 +12,7 @@ import NotFound from './components/not_found';
 import './vendors/iconfonts/font-awesome/css/font-awesome.css';
 import './vendors/iconfonts/mdi/css/materialdesignicons.min.css';
 
+
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import { withRouter } from "react-router";

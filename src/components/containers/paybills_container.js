@@ -3,7 +3,6 @@
  */
 import React from 'react';
 
-import '../../css/style.css';
 
 import '../../vendors/iconfonts/simple-line-icon/css/simple-line-icons.css';
 import '../../vendors/iconfonts/ti-icons/css/themify-icons.css';

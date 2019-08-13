@@ -1,10 +1,12 @@
 import React from 'react';
-import '../css/style.css';
+
 
 // importing components
 import NavBar from './navbar';
 import SideBar from './sidebar';
 import ContainerWithdrawal from './containers/container_withdrawal';
+
+
 
 class Withdrawal extends React.Component {
     render() {
