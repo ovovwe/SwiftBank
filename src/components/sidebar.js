@@ -34,8 +34,7 @@ class SideBar extends React.Component {
                                 </div>
                             </div>
 
-                            <Link className="btn btn-block" to="/withdraw"
-                                  style={{background:"linear-gradient(120deg, #ffaf00, #dc3545)",color: "white"}}>Withdrawal
+                            <Link className="btn btn-block btn-gradient" to="/withdraw">Withdrawal
                                 <i className="mdi mdi-arrow-left"></i>
 
                             </Link>

@@ -3,7 +3,7 @@ import React from 'react';
 // importing components
 import NavBar from './navbar';
 import SideBar from './sidebar';
-import ContainerPayBills from './containers/paybills_container';
+import ContainerPayBills from './containers/container_paybills';
 
 class PayBills extends React.Component {
     render() {

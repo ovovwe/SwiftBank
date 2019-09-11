@@ -4,7 +4,7 @@ import React from 'react';
 // importing components
 import NavBar from './navbar';
 import SideBar from './sidebar';
-import ContainerAirtime from './containers/airtime_container';
+import ContainerAirtime from './containers/container_airtime';
 
 class Airtime extends React.Component {
     render() {

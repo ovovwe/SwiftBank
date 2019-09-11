@@ -40,8 +40,8 @@ class ContainerAirtime extends React.Component {
 
 
         event.preventDefault();
-    }
 
+    }
 
 
     render() {
@@ -92,7 +92,7 @@ class ContainerAirtime extends React.Component {
 
                     </div>
 
-                    <form onSubmit={this.submitAirtimeForm.bind(this)}>
+                    <form onSubmit={this.submitAirtimeForm.bind(this)} >
 
                         <div className="row">
                             <div className="col-md-12 grid-margin">
@@ -117,7 +117,6 @@ class ContainerAirtime extends React.Component {
                                             </label>
                                         </div>
                                     </div>
-
 
                                     <div
                                         className="mr-md-3 col-md-2 col-sm-6 grid-margin align-items-center stretch-card card shadow">
@@ -194,12 +193,16 @@ class ContainerAirtime extends React.Component {
 
                                         <div className="row mt-5">
                                             <div className="form-group mr-4">
-                                                <input type="submit" value="recharge" className="btn btn-primary"/>
+                                                <input type="submit" value="recharge" className="btn btn-gradient"/>
                                             </div>
                                             <div className="form-group">
                                                 <input type="reset" value="clear fields"
                                                        className="btn btn-outline-danger"/>
                                             </div>
+                                        </div>
+
+                                        <div id="loading-div" className="row alert alert-primary">
+                                            <span className="fa fa-spinner fa-spin fa-2x text-primary"></span> &nbsp;<span className="text-primary">Please wait...</span>
                                         </div>
 
                                     </div>

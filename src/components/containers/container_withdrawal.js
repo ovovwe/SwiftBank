@@ -4,23 +4,42 @@
 import React from 'react';
 import pic1 from './../../images/faces/face1.jpg';
 
-import HandleWithdrawal from './../form_handler/handle_withdrawal';
+//import HandleWithdrawal from './../form_handler/handle_withdrawal';
 
 //import components
 import Footer from '../footer';
 
 class ContainerWithdrawal extends React.Component {
-    onSubmit = (event) => {
-        event.preventDefault();
+    constructor() {
+        super();
+        this.state = {
+            bank: '',
+            accountNumber: '',
+            amount: '',
+            pin: ''
+        }
     }
 
-    handleWithdrawalForm = (event) =>{
+    submitWithdrawalForm(event) {
+        var bankValue = event.target.elements.bankName.value;
+        var accountNumberValue = event.target.elements.accountNumberName.value;
+        var amountValue = event.target.elements.amountName.value;
+        var pinValue = event.target.elements.pinName.value;
+
+        this.setState({
+            bank: bankValue,
+            accountNumber: accountNumberValue,
+            amount: amountValue,
+            pin: pinValue
+        });
+
+        console.log(bankValue);
+        console.log(accountNumberValue);
+        console.log(amountValue);
+        console.log(pinValue);
+
         event.preventDefault();
-        console.log(event)
-        console.log(event.target.id)
-        console.log(event.target.value)
-        console.log(event.target.type)
-        console.log(event.target.className)
+
     }
 
     render() {
@@ -45,8 +64,7 @@ class ContainerWithdrawal extends React.Component {
                                         <div className="float-right">
                                             <p className="mb-0 text-right">Available balance</p>
                                             <div className="fluid-container">
-                                                <h3 className="font-weight-medium text-right mb-0 text-success">&#x20A6;
-                                                    65,650</h3>
+                                                <h3 className="font-weight-medium text-right mb-0 text-success">&#x20A6;65,650</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -63,11 +81,11 @@ class ContainerWithdrawal extends React.Component {
                         <div className="col-md-6 grid-margin">
                             <div className="card border-radius-6 shadow">
                                 <div className="card-body">
-                                    <form className="form" onSubmit={this.onSubmit}>
+                                    <form className="form" onSubmit={this.submitWithdrawalForm.bind(this)}>
                                         <div className="form-group row">
                                             <label htmlFor="actNo" className="col-sm-3 col-form-label">Bank</label>
                                             <div className="col-sm-9">
-                                                <select className="form-control" name="bank">
+                                                <select className="form-control" name="bankName">
                                                     <option value="access">ACCESS BANK NIGERIA</option>
                                                     <option value="ecobank">ECOBANK NIGERIA PLC</option>
                                                     <option value="fidelity">FIDELITY BANK PLC</option>
@@ -81,14 +99,14 @@ class ContainerWithdrawal extends React.Component {
                                             <label htmlFor="actNo" className="col-sm-3 col-form-label">Account
                                                 Number</label>
                                             <div className="col-sm-9">
-                                                <input onChange={this.handleWithdrawalForm} type="tel" className="form-control" id="actNoID" name="actNo"
+                                                <input type="tel" className="form-control" id="actNoID" name="accountNumberName"
                                                        placeholder="Account number"/>
                                             </div>
                                         </div>
                                         <div className="form-group row">
                                             <label htmlFor="amount" className="col-sm-3 col-form-label">Amount</label>
                                             <div className="col-sm-9">
-                                                <input type="tel" className="form-control" id="amount"
+                                                <input type="tel" name="amountName" className="form-control" id="amount"
                                                        placeholder="Amount"/>
                                             </div>
                                         </div>
@@ -106,18 +124,22 @@ class ContainerWithdrawal extends React.Component {
                                         <div className="form-group row">
                                             <label htmlFor="pin" className="col-sm-3 col-form-label">Enter PIN</label>
                                             <div className="col-sm-9">
-                                                <input type="tel" className="form-control" id="pin" placeholder="PIN"/>
+                                                <input type="tel" name="pinName" className="form-control" id="pin" placeholder="PIN"/>
                                             </div>
                                         </div>
 
                                         <div className="row mt-5">
                                             <div className="form-group mr-4">
-                                                <input type="submit" value="withdraw" className="btn btn-primary"/>
+                                                <input type="submit" value="withdraw" className="btn btn-gradient"/>
                                             </div>
                                             <div className="form-group">
                                                 <input type="reset" value="clear fields"
                                                        className="btn btn-outline-danger"/>
                                             </div>
+                                        </div>
+
+                                        <div id="loading-div" className="row alert alert-primary">
+                                            <span className="fa fa-spinner fa-spin fa-2x text-primary"></span> &nbsp;<span className="text-primary">Please wait...</span>
                                         </div>
 
                                     </form>

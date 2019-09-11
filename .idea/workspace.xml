@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e6f754-1534-4503-bb81-f9e03a908f2b" name="Default" comment="Reformatted code">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/form_handler/handle_withdrawal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/styledark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/stylelight.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/form_handler/handle_withdrawal.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/containers/airtime_container.js" afterPath="$PROJECT_DIR$/src/components/containers/container_airtime.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/containers/paybills_container.js" afterPath="$PROJECT_DIR$/src/components/containers/container_paybills.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/containers/transfer_container.js" afterPath="$PROJECT_DIR$/src/components/containers/container_transfer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/airtime.js" afterPath="$PROJECT_DIR$/src/components/airtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/airtime_container.js" afterPath="$PROJECT_DIR$/src/components/containers/airtime_container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/container_dashboard.js" afterPath="$PROJECT_DIR$/src/components/containers/container_dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/container_not_found.js" afterPath="$PROJECT_DIR$/src/components/containers/container_not_found.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/container_withdrawal.js" afterPath="$PROJECT_DIR$/src/components/containers/container_withdrawal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/paybills_container.js" afterPath="$PROJECT_DIR$/src/components/containers/paybills_container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/transfer_container.js" afterPath="$PROJECT_DIR$/src/components/containers/transfer_container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/dashboard.js" afterPath="$PROJECT_DIR$/src/components/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/not_found.js" afterPath="$PROJECT_DIR$/src/components/not_found.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/navbar.js" afterPath="$PROJECT_DIR$/src/components/navbar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/paybills.js" afterPath="$PROJECT_DIR$/src/components/paybills.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/sidebar.js" afterPath="$PROJECT_DIR$/src/components/sidebar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/transfer.js" afterPath="$PROJECT_DIR$/src/components/transfer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/withdrawal.js" afterPath="$PROJECT_DIR$/src/components/withdrawal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="swiftbank.iws" />
@@ -40,31 +40,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="handle_withdrawal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/form_handler/handle_withdrawal.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.3758866">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styledark.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/styledark.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="37" />
+              <caret line="8666" column="20" selection-start-line="8666" selection-start-column="20" selection-end-line="8666" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="stylelight.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/stylelight.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.26923">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="airtime_container.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/containers/airtime_container.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54468805">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21363" column="19" selection-start-line="21363" selection-start-column="19" selection-end-line="21363" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -76,6 +76,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -100,8 +101,6 @@
         <option value="$PROJECT_DIR$/src/vendors/iconfonts/font-awesome/css/font-awesome.css" />
         <option value="$USER_HOME$/Downloads/React-related searches/React Router Tutorial.html" />
         <option value="$PROJECT_DIR$/src/components/footer.js" />
-        <option value="$PROJECT_DIR$/src/css/style.css" />
-        <option value="$PROJECT_DIR$/src/components/navbar.js" />
         <option value="$PROJECT_DIR$/src/components/settings_options.js" />
         <option value="$PROJECT_DIR$/src/components/form_submit_handler/handle_withdraw.js" />
         <option value="$PROJECT_DIR$/src/components/transfer.js" />
@@ -114,12 +113,19 @@
         <option value="$PROJECT_DIR$/src/components/containers/container_not_found.js" />
         <option value="$PROJECT_DIR$/src/components/containers/container_dashboard.js" />
         <option value="$PROJECT_DIR$/src/components/withdrawal.js" />
-        <option value="$PROJECT_DIR$/src/components/sidebar.js" />
         <option value="$PROJECT_DIR$/src/components/form_handler/handle_withdrawal.js" />
         <option value="$PROJECT_DIR$/src/components/containers/container_withdrawal.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/containers/airtime_container.js" />
+        <option value="$PROJECT_DIR$/src/css/style.css" />
+        <option value="$PROJECT_DIR$/src/components/sidebar.js" />
+        <option value="$PROJECT_DIR$/src/components/containers/container_transfer.js" />
+        <option value="$PROJECT_DIR$/src/components/containers/container_paybills.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/navbar.js" />
+        <option value="$PROJECT_DIR$/src/components/theme_import_js/dark_light_theme.js" />
+        <option value="$PROJECT_DIR$/src/css/style_light.css" />
+        <option value="$PROJECT_DIR$/src/css/style_dark.css" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -165,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,74 +249,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form_handler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swiftbank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swiftbank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swiftbank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swiftbank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../react-native/e-Shopper" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WORK_FOLDER\classes\reactjs\swiftbank\src\components\containers" />
+      <recent name="C:\WORK_FOLDER\classes\reactjs\swiftbank\src\components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WORK_FOLDER\CLASSES\reactjs\swiftbank\src\css" />
       <recent name="C:\WORK_FOLDER\CLASSES\reactjs\swiftbank\src\components" />
       <recent name="C:\WORK_FOLDER\CLASSES\reactjs\swiftbank\src\components\containers" />
-      <recent name="C:\WORK_FOLDER\classes\reactjs\swiftbank\src\components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\WORK_FOLDER\classes\reactjs\swiftbank\src\components\containers" />
       <recent name="C:\WORK_FOLDER\classes\reactjs\swiftbank\src\components" />
     </key>
   </component>
@@ -376,16 +339,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22617246" sideWeight="0.49436393" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17397882" sideWeight="0.49436393" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21255673" sideWeight="0.5056361" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2753623" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.273752" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="RNConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -417,129 +380,63 @@
           <url>file://$PROJECT_DIR$/src/components/sidebar.js</url>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/containers/transfer_container.js</url>
-          <line>127</line>
+          <url>file://$PROJECT_DIR$/src/components/containers/container_transfer.js</url>
+          <line>168</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/containers/container_withdrawal.js</url>
-          <line>65</line>
+          <line>83</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/containers/container_withdrawal.js</url>
-          <line>83</line>
+          <line>101</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/containers/airtime_container.js</url>
-          <line>179</line>
+          <url>file://$PROJECT_DIR$/src/components/containers/container_airtime.js</url>
+          <line>178</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/containers/airtime_container.js</url>
+          <url>file://$PROJECT_DIR$/src/components/containers/container_airtime.js</url>
           <line>112</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/containers/airtime_container.js</url>
+          <url>file://$PROJECT_DIR$/src/components/containers/container_airtime.js</url>
           <line>28</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/containers/airtime_container.js</url>
-          <line>188</line>
+          <url>file://$PROJECT_DIR$/src/components/containers/container_airtime.js</url>
+          <line>187</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/containers/airtime_container.js</url>
+          <url>file://$PROJECT_DIR$/src/components/containers/container_airtime.js</url>
           <line>94</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/containers/container_paybills.js</url>
+          <line>152</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="20" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/form_handler/handle_withdrawal.js">
+    <entry file="file://$PROJECT_DIR$/src/css/stylelight.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="4" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <marker date="1565485767024" expanded="true" signature="323:7240" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="391:7239" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="521:7220" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="579:1719" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="630:1693" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="689:1353" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="753:866" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="929:1318" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1048:1279" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1430:1525" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1471:1508" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <marker date="1565485767024" expanded="true" signature="323:7240" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="391:7239" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="521:7220" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="579:1719" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="630:1693" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="689:1353" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="753:866" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="929:1318" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1048:1279" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1430:1525" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1471:1508" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/React-related searches/React Router Tutorial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="93" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="93" />
+          <caret line="21363" column="19" selection-start-line="21363" selection-start-column="19" selection-end-line="21363" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -557,17 +454,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
-            <marker date="1565485767024" expanded="true" signature="323:7240" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="391:7239" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="521:7220" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="579:1719" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="630:1693" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="689:1353" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="753:866" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="929:1318" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1048:1279" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1430:1525" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1471:1508" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="323:7139" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="391:7138" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="521:7119" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="579:1618" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="630:1592" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="689:1353" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="753:866" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="929:1318" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="1048:1279" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -583,7 +478,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="93" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <marker date="1565714649920" expanded="true" signature="323:7139" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="391:7138" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="521:7119" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="579:1618" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="630:1592" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="689:1353" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="753:866" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="929:1318" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="1048:1279" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/React-related searches/React Router Tutorial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="93" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -602,7 +536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/containers/transfer_container.js">
+    <entry file="file://$PROJECT_DIR$/src/components/containers/container_transfer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -625,7 +559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/containers/transfer_container.js">
+    <entry file="file://$PROJECT_DIR$/src/components/containers/container_transfer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -748,40 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/airtime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/containers/transfer_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/containers/paybills_container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -799,33 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/withdrawal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5733558">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <marker date="1565485767024" expanded="true" signature="323:7240" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="391:7239" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="521:7220" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="579:1719" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="630:1693" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="689:1353" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="753:866" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="929:1318" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1048:1279" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1430:1525" placeholder="..." />
-            <marker date="1565485767024" expanded="true" signature="1471:1508" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51602024">
@@ -833,19 +710,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/containers/container_withdrawal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34401348">
-          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/site_js/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9274874">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,34 +725,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/sidebar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25801012">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state vertical-scroll-proportion="-2.6408095">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <marker date="1565714649920" expanded="true" signature="323:7139" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="391:7138" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="521:7119" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="579:1618" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="630:1592" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="689:1353" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="753:866" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="929:1318" placeholder="..." />
+            <marker date="1565714649920" expanded="true" signature="1048:1279" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/containers/container_airtime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62731874">
+          <caret line="199" column="43" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/containers/container_withdrawal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68802696">
+          <caret line="42" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/containers/container_transfer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68634063">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/containers/container_paybills.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="203" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/withdrawal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2866779">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.26923">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding />
+        <state vertical-scroll-proportion="0.85858583">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/form_handler/handle_withdrawal.js">
+    <entry file="file://$PROJECT_DIR$/src/components/airtime.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="37" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3787466">
+          <caret line="8664" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="21378" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3758866">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/containers/airtime_container.js">
+    <entry file="file://$PROJECT_DIR$/src/css/styledark.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54468805">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8666" column="20" selection-start-line="8666" selection-start-column="20" selection-end-line="8666" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/stylelight.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21363" column="19" selection-start-line="21363" selection-start-column="19" selection-end-line="21363" selection-end-column="19" />
           <folding />
         </state>
       </provider>

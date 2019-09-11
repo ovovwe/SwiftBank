@@ -6,10 +6,9 @@ import swiftbanklogo from './../images/swiftbank.png';
 import logo_mini from './../images/swiftbank-mobile1.png';
 import pic1 from './../images/faces/face1.jpg';
 
-import '../css/style.css';
+
 
 import {Link} from 'react-router-dom';
-
 
 class NavBar extends React.Component {
     render() {

@@ -4,7 +4,7 @@ import React from 'react';
 // importing components
 import NavBar from './navbar';
 import SideBar from './sidebar';
-import ContainerTransfer from './containers/transfer_container';
+import ContainerTransfer from './containers/container_transfer';
 
 class Transfer extends React.Component {
     render() {
